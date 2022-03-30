@@ -6,12 +6,12 @@ C:\installation_path\RCFeatureEncoder>python setup.py install
 
 ## Import
 ```python
-import RCREModule
-from RCREModule import *
+from RCFeatureEncoder import MeanEncoder
 ```
 
 ## Usage
 ```python
+import pandas as pd
 train_data = pd.read_csv("test_data/train.csv")
 train_target = pd.read_csv("test_data/train_target.csv")
 train_target = pd.Series(train_target.iloc[:,0])
