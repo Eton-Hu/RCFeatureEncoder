@@ -5,7 +5,7 @@ from distutils.core import setup
 setup(
     name= 'RCFeatureEncoder',
     version= '1.0.0',
-    py_modules =['RCREModule','RCEncodedForm'],
+    py_modules =['RCFeatureEncoder','RCFeatureEncoder.RCEncodedForm','RCFeatureEncoder.RCREModule'],
     author= 'Hu Yitong',
     author_email='yitong.hu@outlook.com',
     url='1',
