@@ -10,6 +10,7 @@ from RCFeatureEncoder import MeanEncoder
 ```
 
 ## Usage
+You can copy following demo code for your first trail for mean encoder
 ```python
 import pandas as pd
 from RCFeatureEncoder import MeanEncoder
